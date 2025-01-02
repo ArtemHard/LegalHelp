@@ -25,13 +25,21 @@ export const Header = () => {
     setOpenDrawer(true);
   };
 
-  const handleCloseNavMenu = () => {
+  const handleCloseNavMenu = (id?: string) => {
     setAnchorElNav(null);
     setOpenDrawer(false);
+    if (id) scrollToElement(id);
   };
 
   const handleCloseDrawer = () => {
     setOpenDrawer(false);
+  };
+
+  const scrollToElement = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -90,7 +98,7 @@ export const Header = () => {
             {pages.map((page) => (
               <Button
                 key={page.path}
-                onClick={handleCloseNavMenu}
+                onClick={() => handleCloseNavMenu(page.name)}
                 sx={{ my: 2, color: "black", display: "block" }}
               >
                 <Typography variant='body2'>{page.name}</Typography>
@@ -102,6 +110,7 @@ export const Header = () => {
       <MainDrawer
         open={openDrawer}
         handleOpenDrawer={handleCloseDrawer}
+        scrollToElement={scrollToElement}
         items={pages}
       />
     </AppBar>

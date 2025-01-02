@@ -4,10 +4,11 @@ import { commonService } from "../../../constants/common";
 import Typography from "@mui/material/Typography";
 import { StyledServicesSection } from "./ServiceCard/styled";
 import { StyledTitle, StyledUnderTitle } from "./styled";
+import { EMainSections } from "../../../constants/localizations";
 
 export const ServicesSection = () => {
   return (
-    <StyledServicesSection>
+    <StyledServicesSection id={EMainSections.Services}>
       <StyledTitle>
         <Typography variant='h3'>{"Наши услуги"}</Typography>
       </StyledTitle>

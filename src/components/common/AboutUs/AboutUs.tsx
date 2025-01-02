@@ -3,12 +3,13 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid2";
 import { StyledAboutUsSection, StyledCard, StyledInnerCard } from "./styled";
 import { useTheme } from "@mui/material/styles";
+import { EMainSections } from "../../../constants/localizations";
 
 export const AboutUs = () => {
   const { palette } = useTheme();
 
   return (
-    <Box component={StyledAboutUsSection}>
+    <Box component={StyledAboutUsSection} id={EMainSections.AboutCompany}>
       <Grid container spacing={2} columns={{ xs: 1, sm: 1, md: 12 }}>
         <Grid size={{ xs: 1, sm: 1, md: 5 }}>
           <Box>

@@ -1,6 +1,6 @@
 {
-  "name": "video-prodaction",
-  "homepage": "https://artemhard.github.io/legalhelp",
+  "name": "legalhelp",
+  "homepage": "https://artemhard.github.io/LegalHelp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
