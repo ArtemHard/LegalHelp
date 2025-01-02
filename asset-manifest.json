@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LegalHelp/static/css/main.e6c13ad2.css",
-    "main.js": "/LegalHelp/static/js/main.cd770df4.js",
+    "main.js": "/LegalHelp/static/js/main.7b977789.js",
     "static/js/453.ba750591.chunk.js": "/LegalHelp/static/js/453.ba750591.chunk.js",
     "static/media/back-ground-spb.jpg": "/LegalHelp/static/media/back-ground-spb.c9f22131b554da8ee15d.jpg",
     "index.html": "/LegalHelp/index.html",
@@ -9,11 +9,11 @@
     "static/media/telegram-svgrepo-com.svg": "/LegalHelp/static/media/telegram-svgrepo-com.d900763faec41c754b7d2478b0b883ac.svg",
     "static/media/vk.svg": "/LegalHelp/static/media/vk.a1fc8e66f3013100ca97fd60572d2e14.svg",
     "main.e6c13ad2.css.map": "/LegalHelp/static/css/main.e6c13ad2.css.map",
-    "main.cd770df4.js.map": "/LegalHelp/static/js/main.cd770df4.js.map",
+    "main.7b977789.js.map": "/LegalHelp/static/js/main.7b977789.js.map",
     "453.ba750591.chunk.js.map": "/LegalHelp/static/js/453.ba750591.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.cd770df4.js"
+    "static/js/main.7b977789.js"
   ]
 }
