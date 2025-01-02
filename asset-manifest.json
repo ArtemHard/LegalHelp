@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/legalhelp/static/css/main.e6c13ad2.css",
+    "main.js": "/legalhelp/static/js/main.b14ccc21.js",
+    "static/js/453.946f226c.chunk.js": "/legalhelp/static/js/453.946f226c.chunk.js",
+    "static/media/back-ground-spb.jpg": "/legalhelp/static/media/back-ground-spb.c9f22131b554da8ee15d.jpg",
+    "index.html": "/legalhelp/index.html",
+    "static/media/whatsapp-svgrepo-com.svg": "/legalhelp/static/media/whatsapp-svgrepo-com.d934cf6402c13a9e7af46a74a1d1ea63.svg",
+    "static/media/telegram-svgrepo-com.svg": "/legalhelp/static/media/telegram-svgrepo-com.d900763faec41c754b7d2478b0b883ac.svg",
+    "static/media/vk.svg": "/legalhelp/static/media/vk.a1fc8e66f3013100ca97fd60572d2e14.svg",
+    "main.e6c13ad2.css.map": "/legalhelp/static/css/main.e6c13ad2.css.map",
+    "main.b14ccc21.js.map": "/legalhelp/static/js/main.b14ccc21.js.map",
+    "453.946f226c.chunk.js.map": "/legalhelp/static/js/453.946f226c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b14ccc21.js"
+  ]
+}
